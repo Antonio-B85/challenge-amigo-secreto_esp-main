@@ -10,8 +10,8 @@ function agregarAmigo() {
     //Validar si se ingresó un nombre vacío o no
     nombreValidado = validarNombres(nombreAmigo);
 
-    console.log(nombreAmigo);
-    console.log(nombreValidado);
+    //console.log(nombreAmigo);
+    //console.log(nombreValidado);
 
 
     if (nombreValidado == true) {
@@ -76,7 +76,7 @@ function insertarNombreLista(nombre, elemento) {
 }
 
 function sortearAmigo() {
-    console.log("EMPIEZA EL SORTEO");
+    //console.log("EMPIEZA EL SORTEO");
     errorSorteo = ['Por favor, ingrese amigos antes de sortear'];
 
     if (listadoAmigos.length > 0) {
