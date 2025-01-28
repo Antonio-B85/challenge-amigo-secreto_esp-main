@@ -6,9 +6,9 @@
 
 Versión del documento: 1.0
 
-Estado del proyecto: En desarrollo
+Estado del proyecto: Finalizado
 
-Fecha última actualización: 27-01-2025
+Fecha última actualización: 28-01-2025
 
 Autor: Antonio Benavides
 
