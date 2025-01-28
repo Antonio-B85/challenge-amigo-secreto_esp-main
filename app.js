@@ -82,10 +82,12 @@ function sortearAmigo() {
     if (listadoAmigos.length > 0) {
 
         //comenzar el sorteo
-        let numeroAmigoGenerado = Math.floor(Math.random() * listadoAmigos.length) + 1;
+        //let numeroAmigoGenerado = Math.floor(Math.random() * listadoAmigos.length) + 1;
+        let numeroAmigoGenerado = Math.floor(Math.random() * listadoAmigos.length);
 
         //lleno el elemento Resultado con el amigo secreto sorteado
-        insertarNombreLista(['El amigo secreto sorteado es: ' + listadoAmigos[numeroAmigoGenerado - 1]], "resultado");
+        //insertarNombreLista(['El amigo secreto sorteado es: ' + listadoAmigos[numeroAmigoGenerado - 1]], "resultado");
+        insertarNombreLista(['El amigo secreto sorteado es: ' + listadoAmigos[numeroAmigoGenerado]], "resultado");
 
         //Limpio el listado de amigos
         insertarNombreLista([''], "listaAmigos");
