@@ -34,7 +34,7 @@ Al sortear nuestro amigo secreto, el listado de amigos mencionado anteriormente 
 ## 3. Validaciones
 ### 3.1 Ingresar Nombres de Amigos
 
-La plataforma cuenta con validaciones que impiden que se puedan ingresar nombres vacíos al listado de amigos que se sorteará posteriormente.
+La plataforma cuenta con una validación que impiden que se puedan ingresar nombres vacíos al listado de amigos que se sorteará posteriormente.
 
 ### 3.1 Sortear Amigos
 
